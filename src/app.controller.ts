@@ -20,7 +20,7 @@ export class AppController {
   async plainTextEmail(@Query('toemail') toEmail: string) {
     var response = await this.mailService.sendMail({
       to: toEmail,
-      from: 'getster.tech.developer@gmail.com',
+      from: 'sudhagar.m@getster.tech',
       subject: 'from Nodemailer',
       text: 'Hi there',
     });

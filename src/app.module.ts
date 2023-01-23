@@ -6,10 +6,10 @@ import { MailerModule } from '@nestjs-modules/mailer';
   imports: [
     MailerModule.forRoot({
       transport: {
-        host: 'gmail',
+        host: 'mail1.getwow.email',
         auth: {
-          user: 'getster.tech.developer@gmail.com',
-          pass: 'Getster.tech@587',
+          user: 'sudhagar.m@getster.tech',
+          pass: 'Sudhagar@86101',
         },
       },
     }),
